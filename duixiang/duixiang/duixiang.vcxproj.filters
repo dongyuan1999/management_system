@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\workermanger">
+      <UniqueIdentifier>{c13a7c47-5bbf-48f6-bf3c-b886f8f799a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{9b06d2b6-2ca1-4d2e-b528-5100469c6912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\子类对象声明">
+      <UniqueIdentifier>{843e48cc-0e09-4097-ac98-00ab04562247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子类实现">
+      <UniqueIdentifier>{8a70b248-d5db-48b9-ad4c-756e63d4ed63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="职工管理系统.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="mod_emp.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_emp.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="add_emp.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>源文件\子类实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>源文件\子类实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>源文件\子类实现</Filter>
+    </ClCompile>
+    <ClCompile Include="show_emp.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="del_emp.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="clean_emp.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="find_emp.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="showmenu.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+    <ClCompile Include="exist_system.cpp">
+      <Filter>源文件\workermanger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="workerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>头文件\子类对象声明</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>头文件\子类对象声明</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>头文件\子类对象声明</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
